@@ -1,0 +1,6 @@
+@echo off
+echo Installing requirements...
+python -m pip install -r requirements.txt
+echo Starting the Auto CPU Scheduling Analyzer...
+python server.py
+pause
